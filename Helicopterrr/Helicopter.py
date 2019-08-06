@@ -120,8 +120,7 @@ while True:
                                         points = 0
                                         hei_up_count = 0
                                         prev_height_up = 200
-                                        for o in obstacles:
-                                                obstacles.remove(o)
+                                        obstacles.clear()
                                         obs_draw()
                                         
                 if event.type == pygame.KEYUP:
